@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:todo_app/screens/bloc/todos_bloc.dart';
-import 'package:todo_app/screens/bloc/todos_event.dart';
 
-import '../screens/todo_page.dart';
+import '../screens/todo_screen/bloc/todos_bloc.dart';
+import '../screens/todo_screen/bloc/todos_event.dart';
+import '../screens/todo_screen/todo_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);

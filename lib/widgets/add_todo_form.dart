@@ -1,7 +1,8 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:todo_app/screens/bloc/todos_bloc.dart';
-import 'package:todo_app/screens/bloc/todos_event.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../screens/todo_screen/bloc/todos_bloc.dart';
+import '../screens/todo_screen/bloc/todos_event.dart';
 
 class AddTodoForm extends StatefulWidget {
   const AddTodoForm({Key? key}) : super(key: key);

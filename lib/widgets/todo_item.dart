@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../models/Todo.dart';
-import '../screens/bloc/todos_bloc.dart';
-import '../screens/bloc/todos_event.dart';
+import '../screens/todo_screen/bloc/todos_bloc.dart';
+import '../screens/todo_screen/bloc/todos_event.dart';
 
 class TodoItem extends StatelessWidget {
   final double iconSize = 24.0;
